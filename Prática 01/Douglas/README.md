@@ -1,3 +1,3 @@
-# Prática 01
+https://www.datacamp.com/community/tutorials/r-data-import-tutorial
 
-> Introdução ao <i>Machine Learning</i> com R.
+Todo o teste foi utilizando este compilador online, porque o R Studio não estava funcionando no meu PC.

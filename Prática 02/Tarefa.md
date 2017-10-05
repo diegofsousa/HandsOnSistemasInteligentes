@@ -17,7 +17,7 @@ Baixe o <i>dataset</i> para o mesmo diretório do seu script R e use a função 
 
 ## Primeira questão
 
-Faça duas listas, uma contendo as médias e outra contendo os desvios padrões das quantidades de compartilhamento (shares) de cada dia da semana (domingo à sábado), algo como:
+Filtre os dados e faça duas listas, uma contendo as médias e outra contendo os desvios padrões das quantidades de compartilhamento (shares) de cada dia da semana (domingo à sábado), algo como:
 
 <code>medias <- c(media_das_segundas, media_das_tercas,...)</code><br>
 <code>desvios_padroes <- c(desvio_das_segundas, desvio_das_tercas,...)</code><br>

@@ -1,5 +1,7 @@
 # Tarefa
 
+> Prazo final para a tarefa - 10/10/2017 (terça-feira) 
+
 Para esta tarefa utilizaremos o <i>dataset</i> [<i>Online News Popularity Data Set</i>](https://archive.ics.uci.edu/ml/datasets/Online+News+Popularity). Pela descrição, se trata de um conjunto heterogêneo de recursos sobre artigos publicados pelo portal <i>Mashable</i> em um período de dois anos.
 
 Vários atributos compõem o <i>dataset</i>, alguns deles são:

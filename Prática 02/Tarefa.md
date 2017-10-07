@@ -51,5 +51,5 @@ Será um extra retirar outra qualquer informação do dataset e plotar. Usem a i
 
 ### Para o commit
 
-Faça o Pull Request com apenas a pasta com seu nome contendo o script com extensão ".R" e as imagens plotadas em formato ".png".
+Faça o Pull Request com apenas a pasta com seu nome contendo o(s) script(s) com extensão ".R" e as imagens plotadas em formato ".png".
 

@@ -17,7 +17,7 @@ Baixe o <i>dataset</i> para o mesmo diretório do seu script R e use a função 
 
 ## Primeira questão
 
-Filtre os dados e faça uma listacontendo as médias das quantidades de compartilhamento (shares) de cada dia da semana (domingo à sábado), algo como:
+Filtre os dados e faça uma lista contendo as médias das quantidades de compartilhamento (shares) de cada dia da semana (domingo à sábado), algo como:
 
 <code>medias <- c(media_das_segundas, media_das_tercas,...)</code><br>
 

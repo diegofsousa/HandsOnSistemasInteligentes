@@ -17,19 +17,18 @@ Baixe o <i>dataset</i> para o mesmo diretório do seu script R e use a função 
 
 ## Primeira questão
 
-Filtre os dados e faça duas listas, uma contendo as médias e outra contendo os desvios padrões das quantidades de compartilhamento (shares) de cada dia da semana (domingo à sábado), algo como:
+Filtre os dados e faça uma listacontendo as médias das quantidades de compartilhamento (shares) de cada dia da semana (domingo à sábado), algo como:
 
 <code>medias <- c(media_das_segundas, media_das_tercas,...)</code><br>
-<code>desvios_padroes <- c(desvio_das_segundas, desvio_das_tercas,...)</code><br>
 
 E depois, plote um <b>gráfico de linha</b> usando a função <code>plot</code> contendo as linhas referênte a média e desvio padrão. Orientações:
 <ul>  
   <li>Complemente o gráfico com título, subtítulo e labels dos eixos X e Y;</li>
   <li>Legenda;</li>
-  <li>O limite do eixo Y deverá estar entre 2000 e 5700 shares;</li>
+  <li>O limite do eixo Y deverá estar entre 3000 e 4500 shares;</li>
   <li>O gráfico deve ter como axis (labels escalares do eixo X) cada dia da semana;</li>
-  <li>Linhas e tipos de traço diferentes entre as linhas;</li>
-  <li>Complemente a linha com ponto;</li>    
+  <li>Linha do tipo traçado e cor customizada;</li>
+  <li>Complemente a linha com ponto.</li>    
 </ul>
 
 Ao final, o gráfico deve estar similar a este:
@@ -52,4 +51,3 @@ Será um extra retirar outra qualquer informação do dataset e plotar. Usem a i
 ### Para o commit
 
 Faça o Pull Request com apenas a pasta com seu nome contendo o(s) script(s) com extensão ".R" e as imagens plotadas em formato ".png".
-

@@ -25,7 +25,7 @@ E depois, plote um <b>gráfico de linha</b> usando a função <code>plot</code> 
 <ul>  
   <li>Complemente o gráfico com título, subtítulo e labels dos eixos X e Y;</li>
   <li>Legenda;</li>
-  <li>O limite do eixo Y deverá estar entre 3000 e 4500 shares;</li>
+  <li>Defina um limite ustomizado para o eixo Y;</li>
   <li>O gráfico deve ter como axis (labels escalares do eixo X) cada dia da semana;</li>
   <li>Linha do tipo traçado e cor customizada;</li>
   <li>Complemente a linha com ponto.</li>    

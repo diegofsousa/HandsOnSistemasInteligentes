@@ -24,8 +24,8 @@ Filtre os dados e faça uma lista contendo as médias das quantidades de compart
 E depois, plote um <b>gráfico de linha</b> usando a função <code>plot</code> contendo as linhas referênte a média e desvio padrão. Orientações:
 <ul>  
   <li>Complemente o gráfico com título, subtítulo e labels dos eixos X e Y;</li>
+  <li>Defina um limite customizado para o eixo Y;</li>
   <li>Legenda;</li>
-  <li>Defina um limite ustomizado para o eixo Y;</li>
   <li>O gráfico deve ter como axis (labels escalares do eixo X) cada dia da semana;</li>
   <li>Linha do tipo traçado e cor customizada;</li>
   <li>Complemente a linha com ponto.</li>    

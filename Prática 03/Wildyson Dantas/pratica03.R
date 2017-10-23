@@ -32,6 +32,6 @@ prediction <- predict(lm, select(testingwine,density,total.sulfur.dioxide,free.s
 lm_prediction <- data.frame(pred = prediction, obs = testingwine$alcohol)
 ggplot(lm_prediction, aes(x=pred, y = obs))+
   geom_point(alpha = 0.5, position = position_jitter(width = 0.2)) + 
-  geom_abline(colour = "blue") + ggtitle("Previsao x Observado (validação)")
+  geom_abline(colour = "blue") + ggtitle("Previsao x Observado (validaÃ§Ã£o)")
 
 round(defaultSummary(lm_prediction), digits = 3)

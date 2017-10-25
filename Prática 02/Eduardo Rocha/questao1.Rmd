@@ -1,0 +1,49 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+This is an [R Markdown](http://rmarkdown.rstudio.com) Notebook. When you execute code within the notebook, the results appear beneath the code. 
+
+Try executing this chunk by clicking the *Run* button within the chunk or by placing your cursor inside it and pressing *Ctrl+Shift+Enter*. 
+
+```{r}
+
+dado <- read.csv(file = "OnlineNewsPopularity.csv", sep=",")
+
+amostra1 <- dado[dado$weekday_is_sunday ==1,]
+amostra2 <- dado[dado$weekday_is_monday ==1,]
+amostra3 <- dado[dado$weekday_is_tuesday ==1,]
+amostra4 <- dado[dado$weekday_is_wednesday ==1,]
+amostra5 <- dado[dado$weekday_is_thursday ==1,]
+amostra6 <- dado[dado$weekday_is_friday ==1,]
+amostra7 <- dado[dado$weekday_is_saturday ==1,]
+
+
+
+domingo <- mean(amostra1$shares)
+segunda <- mean(amostra2$shares)
+terca <- mean(amostra3$shares)
+quarta <- mean(amostra4$shares)
+quinta <- mean(amostra5$shares)
+sexta <- mean(amostra6$shares)
+sabado <- mean(amostra7$shares)
+
+
+medias <- c(domingo,segunda,terca,quarta,quinta,sexta,sabado)
+dias <- c("Domingo","Segunda-Feira","Terça-Feira","Quarta-Feira","Quinta-Feira","Sexta-Feira","Sábado")
+
+
+
+
+plot(medias,main = "Compartilhamento de Noticias pela Internet",xlab = "Dias da semana",ylab = "Quantidade de compartilhamento",type = "b",col = "blue", lty = 5, xaxt="n")
+axis(1, at = seq_along(dias), labels = dias)
+
+legend("top","topleft",legend = c("Media" ), 
+       col = c("blue"),lty = 5,cex = 0.6, title= "Quantidade")
+
+```
+
+Add a new chunk by clicking the *Insert Chunk* button on the toolbar or by pressing *Ctrl+Alt+I*.
+
+When you save the notebook, an HTML file containing the code and output will be saved alongside it (click the *Preview* button or press *Ctrl+Shift+K* to preview the HTML file).

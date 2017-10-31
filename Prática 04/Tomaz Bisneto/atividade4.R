@@ -9,7 +9,7 @@ summary(lm.rmr)
 plot(body.weight~metabolic.rate)
 abline(lm.rmr)
 
-#2-Diferença entre os valores estimados e observados(nulo)
+#2-Diferença entre os valores estimados e observados
 
 
 #3-Resíduos e valores estimados

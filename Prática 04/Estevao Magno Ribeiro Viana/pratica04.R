@@ -10,6 +10,9 @@ par(mfrow=c(1,1))
 
 summary(rmr.lm)
 
+plot(body.weight, metabolic.rate)
+segments(body.weight, fitted(lm.velo), body.weight, metabolic.rate)
+abline(lm(metabolic.rate ~ body.weight))
 
 
 

@@ -1,6 +1,6 @@
 # Tarefa
 
-> Prazo final para a tarefa - 13/11/2017 (terça-feira)<br>
+> Prazo final para a tarefa - 14/11/2017 (terça-feira)<br>
 > Valor: 2,5
 
 Para esta tarefa, você deve usar um <i>dataset</i> de sua preferência. Este deve seguir algumas especificações:

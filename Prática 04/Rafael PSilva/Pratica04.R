@@ -1,0 +1,20 @@
+library(ISwR)
+library(caret)
+require(dplyr)
+require(reshape2)
+attach(rmr)
+names(rmr)
+
+lm(metabolic.rate ~ body.weight)
+summary(lm(metabolic.rate ~ body.weight))
+plot(body.weight, metabolic.rate )
+abline(lm(metabolic.rate ~ body.weight))
+
+options(na.action = na.exclude)
+lm.ate <- lm(metabolic.rate ~ body.weight)
+fitted(lm.ate)
+resid(lm.ate)
+
+lines(metabolic.rate, fitted(lm.ate))
+segments(body.weight, fitted(lm.ate), body.weight, metabolic.rate)
+abline(lm(metabolic.rate ~ body.weight))

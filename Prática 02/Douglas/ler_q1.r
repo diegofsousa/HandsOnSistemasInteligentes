@@ -1,3 +1,4 @@
+
 da = read.csv('/home/douglas/HandsOnSistemasInteligentes/Prática 02/OnlineNewsPopularity/OnlineNewsPopularity.csv')
 
 domingo<-subset(da[[61]], da[[32]]==1)

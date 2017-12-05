@@ -1,0 +1,11 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+
+```{r}
+dataurl <- "/home/douglas/HandsOnSistemasInteligentes/Prática 02/OnlineNewsPopularity/OnlineNewsPopularity.csv"
+read.csv(dataurl,header = FALSE, sep='')
+str(vehicles_df)
+```

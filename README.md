@@ -16,5 +16,6 @@ UPDATE: Foi adicionado um slide que mostra o passo-a-passo para fazer um Pull Re
 |     [04 - Regressão Linear Simples com R](./Prática%2004/)     |    ~~31/outubro~~   |
 |   [05 - Árvores de Decisão e Random Forest](./Prática%2005/)   |    ~~14/novembro~~  |
 |               [06 - *Tarefa em forma de artigo*]               |    ~~21/novembro~~  |
-|       [07 - Single​ ​Value​ ​Decomposition](./Prática%2007/)       |      29/novembro    |
+|       [07 - Single​ ​Value​ ​Decomposition](./Prática%2007/)       |    ~~29/novembro~~  |
+|              [Trabalho Final](./Trabalho%20Final/)             |       7/dezembro    |
 </center>

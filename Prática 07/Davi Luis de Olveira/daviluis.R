@@ -1,4 +1,4 @@
-dowlibrary("ripa")
+library("ripa")
 library("jpeg")
 
 flower <- readJPEG("flor.jpeg")

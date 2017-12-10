@@ -17,5 +17,23 @@ UPDATE: Foi adicionado um slide que mostra o passo-a-passo para fazer um Pull Re
 |   [05 - Árvores de Decisão e Random Forest](./Prática%2005/)   |    ~~14/novembro~~  |
 |               [06 - *Tarefa em forma de artigo*]               |    ~~21/novembro~~  |
 |       [07 - Single​ ​Value​ ​Decomposition](./Prática%2007/)       |    ~~29/novembro~~  |
-|              [Trabalho Final](./Trabalho%20Final/)             |       7/dezembro    |
+|              [Trabalho Final](./Trabalho%20Final/)             |     ~~7/dezembro~~  |
 </center>
+
+## Contibuidores
+
+[Clique aqui](https://github.com/diegofsousa/HandsOnSistemasInteligentes/graphs/contributors) para ver a lista com todos os contribuidores deste repositório.
+
+## Mantenedores
+
+### Professora
+
+<ul>
+  <li>Prof. Dr. Deborah V. Magalhães</li>
+</ul>
+
+### Monitores
+<ul>
+  <li>Diego F. Sousa</li>
+  <li>Edson Damasceno</li>
+</ul>
